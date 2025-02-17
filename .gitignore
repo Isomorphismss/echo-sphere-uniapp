@@ -1,0 +1,31 @@
+# 忽略 HBuilderX 的配置文件夹
+.hbuilderx/
+
+# 忽略 VSCode 的配置文件
+.vscode/
+
+# 忽略 uniapp 自动生成的文件夹和文件
+uni_modules/
+androidPrivacy.json
+pages.json
+
+# 忽略静态资源缓存文件（如果有）
+static/**/*_cache.*
+
+# 忽略 Node.js 相关的文件夹
+node_modules/
+npm-debug.log*
+
+# 忽略 macOS 和 Windows 系统生成的无用文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+
+# 忽略打包生成的文件（如果有用 HBuilderX 编译）
+dist/
+
+# 其他根据实际项目调整的文件
+*.bak
+*.tmp
