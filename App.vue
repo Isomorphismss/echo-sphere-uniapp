@@ -4,9 +4,9 @@
 	import districtList from './json/area_district.js';
 	export default {
 		globalData: {
-			serverUrl: "http://localhost:1000",
+			serverUrl: "http://172.20.3.47:1000",
 			
-			chatServerUrl: "ws://localhost:875/ws", 
+			chatServerUrl: "ws://172.20.3.47:875/ws", 
 			
 			minNode: {},
 			
